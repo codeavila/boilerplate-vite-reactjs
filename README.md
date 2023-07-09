@@ -28,6 +28,10 @@ This plugin is a lifesaver! It gives you a sweet preview of your image files, no
 
 If the plugin doesn't display the images, simply add the following property in the VSCODE JSON file called "Open User Settings (JSON)". Just make sure to add the appropriate path for your project.
 
+```js
+"gutterpreview.sourceFolder": "./src/assets"
+```
+
 ![alt](./readme/fixpathpreview.png)
 
 

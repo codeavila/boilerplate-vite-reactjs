@@ -26,6 +26,11 @@ This project is created for ReactJS using the PNPM Package Manager. It comes wit
 
 This plugin is a lifesaver! It gives you a sweet preview of your image files, no matter the extension (svg, png, jpg, you name it). You'll find it on the left side, right next to the line number. Just hover your cursor over the path, and voila! You'll see the image pop up, even within the component.
 
+If the plugin doesn't display the images, simply add the following property in the VSCODE JSON file called "Open User Settings (JSON)". Just make sure to add the appropriate path for your project.
+
+![alt](./readme/fixpathpreview.png)
+
+
 **Example**
 
 ![alt](./readme/previewexample.png)

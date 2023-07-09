@@ -1,5 +1,9 @@
 # boilerplate-vite-reactjs
 
+## Description
+
+This project is created for ReactJS using the PNPM Package Manager. It comes with basic ESLint and Prettier configurations, as well as the use of relative paths based on the project's path structure. Essentially, it's a boilerplate that helps you kickstart your projects quickly and easily.
+
 ![alt](./readme/review.png)
 
 ## Requeriments 
@@ -23,11 +27,10 @@
 This plugin is a lifesaver! It gives you a sweet preview of your image files, no matter the extension (svg, png, jpg, you name it). You'll find it on the left side, right next to the line number. Just hover your cursor over the path, and voila! You'll see the image pop up, even within the component.
 
 **Example**
+
 ![alt](./readme/previewexample.png)
 
-## Description
 
-This project is created for ReactJS using the PNPM Package Manager. It comes with basic ESLint and Prettier configurations, as well as the use of relative paths based on the project's path structure. Essentially, it's a boilerplate that helps you kickstart your projects quickly and easily.
 
 I hope this less formal version meets your requirements. If you need any further modifications or have any other requests, please let me know.
 

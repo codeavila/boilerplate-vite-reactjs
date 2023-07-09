@@ -30,10 +30,25 @@ This plugin is a lifesaver! It gives you a sweet preview of your image files, no
 
 ![alt](./readme/previewexample.png)
 
+---
+
+## Usage
+Console commands
+
+```shell
+pnpm install
+```
+
+```shell
+pnpm run dev
+```
+
+![alt](./readme/pnpminstall.png)
+
+![alt](./readme/pnpmrundev.png)
 
 
-I hope this less formal version meets your requirements. If you need any further modifications or have any other requests, please let me know.
-
+---
 ## Configuration description
 
 ### vite.config.js
@@ -107,7 +122,6 @@ Need some extra rules? Check out this link: [Rules Prettier]([/guides/content/ed
 }
 ```
 
----
 ---
 
 > If this repository has been helpful to you, please show your support by giving it a star. It would mean the world to me, and I'll be extremely grateful. Thank you!

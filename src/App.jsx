@@ -6,7 +6,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -54,6 +53,15 @@ function App() {
           Github repo
         </a>
       </p>
+      <h1>Navigation Example</h1>
+      <ul>
+        <li>
+          <a href='/login'>Login</a>
+        </li>
+        <li>
+          <a href='/home'>Home</a>
+        </li>
+      </ul>
     </>
   )
 }

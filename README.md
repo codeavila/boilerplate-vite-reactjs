@@ -4,7 +4,7 @@
 
 This project is created for ReactJS using the PNPM Package Manager. It comes with basic ESLint and Prettier configurations, as well as the use of relative paths based on the project's path structure. Essentially, it's a boilerplate that helps you kickstart your projects quickly and easily.
 
-![alt](./readme/review.png)
+![alt](./readme/preview.png)
 
 ## Requeriments 
 
@@ -132,6 +132,24 @@ Need some extra rules? Check out this link: [Rules Prettier]([/guides/content/ed
 ```
 
 ---
+
+### React Router v6
+
+Good news! We've integrated React Router into the project. To manage your project's routes, simply navigate to the ***"src\router\routes.jsx"*** file. There, you can easily configure the URL routes and associate them with the respective components. This way, you'll have full control over the navigation in your project.
+
+```js
+import App from '@/App'
+import Login from '@pages/Login/Login'
+import Home from '@pages/Home/Home'
+
+const routes = [
+  { path: '/', element: <App /> },
+  { path: '/login', element: <Login /> },
+  { path: '/home', element: <Home /> },
+]
+
+export default routes
+```
 
 > If this repository has been helpful to you, please show your support by giving it a star. It would mean the world to me, and I'll be extremely grateful. Thank you!
 

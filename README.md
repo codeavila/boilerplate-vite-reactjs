@@ -6,25 +6,52 @@ This project is created for ReactJS using the PNPM Package Manager. It comes wit
 
 ![alt](./readme/preview.png)
 
+## Table of content
+
+- [boilerplate-vite-reactjs](#boilerplate-vite-reactjs)
+  - [Description](#description)
+  - [Table of content](#table-of-content)
+  - [Requeriments](#requeriments)
+    - [Eslint Plugin](#eslint-plugin)
+    - [Prettier Plugin](#prettier-plugin)
+    - [PNPM Package Manager](#pnpm-package-manager)
+    - [Image Preview (optional)](#image-preview-optional)
+      - [Fix](#fix)
+  - [Usage](#usage)
+  - [Configuration description](#configuration-description)
+    - [Alias path config](#alias-path-config)
+      - [vite.config.js](#viteconfigjs)
+      - [jsconfig.json](#jsconfigjson)
+    - [.prettierrc](#prettierrc)
+    - [React Router v6](#react-router-v6)
+- [Thanks](#thanks)
+
+---
+
 ## Requeriments 
 
-- **ESLINT Plugin**
+- ### **ESLINT Plugin**
+[Direct Link](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ![alt](./readme/eslint.png)
 
-- **PRETTIER Plugin**
+- ### **PRETTIER Plugin**
+[Direct Link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ![alt](./readme/prettier.png)
 
-- **PNPM Package manager**
+- ### **PNPM Package manager**
+[Install Docs](https://pnpm.io/es/installation)
 
 ![alt](./readme/pnpm.png)
 
-- **Image Preview** (Optional)
-
+- ### **Image Preview** (Optional)
+[Direct Link](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 ![alt](./readme/imagepreview.png)
 
 This plugin is a lifesaver! It gives you a sweet preview of your image files, no matter the extension (svg, png, jpg, you name it). You'll find it on the left side, right next to the line number. Just hover your cursor over the path, and voila! You'll see the image pop up, even within the component.
+
+#### Fix
 
 If the plugin doesn't display the images, simply add the following property in the VSCODE JSON file called "Open User Settings (JSON)". Just make sure to add the appropriate path for your project.
 
@@ -60,7 +87,9 @@ pnpm run dev
 ---
 ## Configuration description
 
-### vite.config.js
+### Alias path config
+
+#### vite.config.js
 
 Check out the vite.config.js file! That's where you'll find all the routes with their fancy aliases for the project. If you want to add a new route, simply follow the same writing style as shown in the line below.
 
@@ -150,10 +179,12 @@ const routes = [
 
 export default routes
 ```
-
+---
+---
+# Thanks
 > If this repository has been helpful to you, please show your support by giving it a star. It would mean the world to me, and I'll be extremely grateful. Thank you!
 
 
 Make sure to swing by my Personal Blog! You never know what gems you'll discover that could be of value to you or your buddies.
 
-[<ode <raft avila Blog](https://codecraftavila.super.site/)
+⭐⭐⭐ [<ode <raft avila Blog](https://codecraftavila.super.site/) ⭐⭐⭐
